@@ -2,9 +2,9 @@ import './index.css';
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion'
 
-// api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=09a52bcb2a7e16f19190debd17cc8c04
+
 const api = {
-  key: '09a52bcb2a7e16f19190debd17cc8c04',
+  key: '', //Request API from https://openweathermap.org/api for key
   base: 'https://api.openweathermap.org/data/2.5/'
 }
 
